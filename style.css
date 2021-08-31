@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+.question {
+    width: 550px;
+    height: 25px;
+    margin-top: 20px;
+    border: 3px solid green;
+    border-radius: 2px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: verdana, arial, helvetica;
+    font-size: 15px;
+}
+
+#send {
+    border: none;
+    background: transparent;
+    color: green;
+    font-size: 40px;
+    margin-top: 11px;
+    position: absolute;
+    margin-left: 10px
+}
+
+#send:hover {
+    cursor: pointer;
+}
+
+#ques {
+    color: transparent;
+}
+
+#ans {
+    color: white;
+    font-family: rockwell;
+    font-size: 25px;
+}
